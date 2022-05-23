@@ -1,0 +1,29 @@
+* {
+    background-color: #152238;
+    color: white;
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+
+span {
+    color: #d4af37;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul a {
+    text-decoration: none;
+    padding: 0 10px 0 10px;
+}
+
+nav #links ul li :hover, nav #socials ul li :hover{
+    color: #d4af37;
+    transition: 0.2s;
+}
+
