@@ -27,3 +27,12 @@ nav #links ul li :hover, nav #socials ul li :hover{
     transition: 0.2s;
 }
 
+.nameIntro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#name {
+    font-size: 70px;
+}
